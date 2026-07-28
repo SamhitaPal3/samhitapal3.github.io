@@ -8,6 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  .topic { color: var(--accent-dark); font-weight: 600; }
+
+  .edu-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+  .edu-table td { padding: 16px 0; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 0.97rem; }
+  .edu-table tr:last-child td { border-bottom: none; }
+  .edu-year { font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-faint); width: 130px; white-space: nowrap; padding-right: 20px; }
+  .edu-detail { display: block; margin-top: 6px; color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; }
+</style>
 </head>
 <body>
 
@@ -35,7 +44,7 @@
       <h1 class="hero-name">Samhita Pal</h1>
       <p class="hero-title">Postdoctoral Research Associate in Biostatistics</p>
       <p class="hero-affil">Vanderbilt University Medical Center, Department of Biostatistics</p>
-      <p class="hero-blurb">I work at the intersection of Bayesian inference, high-dimensional statistics, transfer learning, and causal methodology, with applications to precision medicine, genomics, and biological network discovery. My current focus is on developing rigorous uncertainty quantification for projection-posterior methods in Bayesian transfer learning, and on sensitivity analysis frameworks for treatment effect generalization across heterogeneous populations.</p>
+      <p class="hero-blurb">I work at the intersection of <span class="topic">Bayesian inference</span>, <span class="topic">high-dimensional statistics</span>, <span class="topic">transfer learning</span>, and <span class="topic">causal methodology</span>, with applications to neurodegenerative diseases, precision medicine, genomics, and biological network discovery. My current focus is on developing rigorous uncertainty quantification for projection-posterior methods, and on sensitivity analysis frameworks for treatment effect generalization across heterogeneous populations.</p>
       <div class="contact-row">
         <a class="pill" href="mailto:samhita.pal@vumc.org">Email</a>
         <a class="pill" href="https://scholar.google.com/citations?user=FRRxYk8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
@@ -55,9 +64,36 @@
     </div>
     <div class="prose">
       <p>I completed my Ph.D. in Statistics in May 2025 at North Carolina State University, advised by <a href="https://www4.stat.ncsu.edu/~sghosal/" target="_blank" rel="noopener">Subhashis Ghosal</a>. My dissertation, <em>Bayesian Inference in High-Dimensional Regression Models using Sparse Projection Posterior</em>, developed theory and computation for projection-posterior methods in high-dimensional Bayesian regression and variable selection — work that was a finalist for the ISBA Savage Award in the Theory and Methods category.</p>
-      <p>Since June 2025, I have been a Postdoctoral Research Associate at Vanderbilt University Medical Center, co-advised by <a href="https://www.amirasiaee.com/" target="_blank" rel="noopener">Amir Asiaee</a> and <a href="https://jaredhuling.org/" target="_blank" rel="noopener">Jared Huling</a> (University of Minnesota). My postdoctoral work extends my dissertation's projection-posterior framework into a general two-stage Bayesian transfer learning methodology (<strong>ProjectionTL</strong>), and applies causal inference methodology — data fusion, calibration, sensitivity analysis, and instrumental variable regression — to problems in precision medicine, clinical trial generalization, and gene regulatory network discovery.</p>
+      <p>Since June 2025, I have been a Postdoctoral Research Associate at Vanderbilt University Medical Center, co-advised by <a href="https://www.amirasiaee.com/" target="_blank" rel="noopener">Amir Asiaee</a> and <a href="https://jaredhuling.org/" target="_blank" rel="noopener">Jared Huling</a> (University of Minnesota). My postdoctoral work applies causal inference methodology — data fusion, calibration, sensitivity analysis, and instrumental variable regression — to problems in precision medicine, clinical trial generalization, and gene regulatory network discovery.</p>
       <p>I am currently on the statistics and biostatistics faculty job market.</p>
     </div>
+  </section>
+
+  <section class="block">
+    <div class="section-label">
+      <h2>Education</h2>
+      <div class="rule"></div>
+    </div>
+    <table class="edu-table">
+      <tr>
+        <td class="edu-year">2021 – 2025</td>
+        <td>
+          Ph.D. Statistics, North Carolina State University
+          <span class="edu-detail">
+            Advisor: <a href="https://www4.stat.ncsu.edu/~sghosal/" target="_blank" rel="noopener">Subhashis Ghosal</a><br>
+            Thesis: <a href="https://repository.lib.ncsu.edu/items/f210924c-b4c4-4ba7-b060-ebfc3acb271a" target="_blank" rel="noopener">Bayesian Inference in High-Dimensional Regression Models using Sparse Projection Posterior</a>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="edu-year">2018 – 2020</td>
+        <td>M.Sc. Statistics, University of Calcutta</td>
+      </tr>
+      <tr>
+        <td class="edu-year">2015 – 2018</td>
+        <td>B.Sc. Statistics (Honours), St. Xavier's College (Autonomous), Kolkata</td>
+      </tr>
+    </table>
   </section>
 
   <section class="block">
