@@ -7,6 +7,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  .talklist { list-style: none; padding: 0; margin: 0 0 40px; }
+  .talklist li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding-left: 16px;
+    position: relative;
+  }
+  .talklist li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: var(--text-faint);
+  }
+  .talklist li:last-child { border-bottom: none; }
+  .talklist a { color: var(--text); font-weight: 600; }
+  .talklist .plain { color: var(--text); }
+  .talklist .venue { color: var(--text-muted); }
+</style>
 </head>
 <body>
 
@@ -29,154 +50,44 @@
   <div class="page-head">
     <p class="eyebrow">Talks &amp; Posters</p>
     <h1>Presentations</h1>
-    <p class="lede">Slide and poster links are being added — reach out by <a href="mailto:samhita.pal@vumc.org">email</a> if you'd like a specific one in the meantime.</p>
+    <p class="lede">Linked titles open slides or posters. Reach out by <a href="mailto:samhita.pal@vumc.org">email</a> for anything not yet linked.</p>
   </div>
 
-  <!-- ================= AWARD ================= -->
-  <div class="section-label">
-    <h2>Award</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
+  <div class="section-label"><h2>Award</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><a href="files/CMI_BIRS.pdf" target="_blank" rel="noopener">Honorable Mention, ISBA Savage Award 2026 (Theory and Methods category)</a> — <span class="venue">ISBA World Meeting 2026</span></li>
+  </ul>
 
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2026</div>
-      <div class="talk-body">
-        <p class="talk-title">Honorable Mention, ISBA Savage Award 2026 (Theory and Methods category)</p>
-        <p class="talk-venue">ISBA World Meeting 2026</p>
-        <p class="talk-slides"><a href="files/CMI_BIRS.pdf" target="_blank" rel="noopener">Slides (PDF)</a></p>
-      </div>
-    </div>
+  <div class="section-label"><h2>Invited talk</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><span class="plain">Sparse projection posterior methodology</span> — <span class="venue">CFE-CMStatistics 2024</span></li>
+    <li><span class="plain">Sparse projection posterior methodology</span> — <span class="venue">Calcutta Statistical Association Triennial Symposium</span></li>
+  </ul>
 
-  </section>
+  <div class="section-label"><h2>Invited poster</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><span class="plain">Invited poster session</span> — <span class="venue">New Frontiers in Reliability and Risk Analysis Symposium: A Tribute to Nozer D. Singpurwalla</span></li>
+  </ul>
 
-  <!-- ================= INVITED TALK ================= -->
-  <div class="section-label">
-    <h2>Invited talk</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
+  <div class="section-label"><h2>Student paper award</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><span class="plain">Sparse projection posterior methodology</span> — <span class="venue">ICSDS (International Conference on Statistics and Data Science) 2024</span></li>
+    <li><span class="plain">Sparse projection posterior methodology</span> — <span class="venue">IISA (International Indian Statistical Association) 2023</span></li>
+  </ul>
 
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2024</div>
-      <div class="talk-body">
-        <p class="talk-title">Sparse projection posterior methodology</p>
-        <p class="talk-venue">- CFE-CMStatistics 2024</p>
-        <p class="talk-venue">- Calcutta Statistical Association Triennial Symposium</p>
-        <p class="talk-slides">Slides: coming soon</p>
-      </div>
-    </div>
+  <div class="section-label"><h2>Contributed session</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><a href="files/Paper_2_slides.pdf" target="_blank" rel="noopener">Decoding the Genomic Network: A Dependence-Adjusted Approach for Functional Analysis of Omnigenic Models</a> — <span class="venue">Women in Statistics and Data Science Conference 2023</span></li>
+  </ul>
 
-  </section>
-
-  <!-- ================= INVITED POSTER ================= -->
-  <div class="section-label">
-    <h2>Invited poster</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2023</div>
-      <div class="talk-body">
-        <p class="talk-title">Invited poster session</p>
-        <p class="talk-venue">New Frontiers in Reliability and Risk Analysis Symposium: A Tribute to Nozer D. Singpurwalla</p>
-        <p class="talk-slides">Poster: coming soon</p>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ================= STUDENT PAPER AWARD ================= -->
-  <div class="section-label">
-    <h2>Student paper award</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2024</div>
-      <div class="talk-body">
-        <p class="talk-title">Sparse projection posterior methodology</p>
-        <p class="talk-venue">- ICSDS (International Conference on Statistics and Data Science) 2024</p>
-        <p class="talk-venue">- IISA (International Indian Statistical Association) 2023</p>
-        <p class="talk-slides">Slides: coming soon</p>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ================= CONTRIBUTED SESSION ================= -->
-  <div class="section-label">
-    <h2>Contributed session</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2023</div>
-      <div class="talk-body">
-        <p class="talk-title">Decoding the Genomic Network: A Dependence-Adjusted Approach for Functional Analysis of Omnigenic Models</p>
-        <p class="talk-venue">Women in Statistics and Data Science Conference 2023</p>
-        <p class="talk-slides"><a href="files/Paper_2_slides.pdf" target="_blank" rel="noopener">Slides (PDF)</a></p>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ================= POSTER ================= -->
-  <div class="section-label">
-    <h2>Poster</h2>
-    <div class="rule"></div>
-  </div>
-  <section class="block" style="padding-top:0;">
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2026</div>
-      <div class="talk-body">
-        <p class="talk-title">Improving Trial-Based CATE Estimation with Observational Data Borrowing</p>
-        <p class="talk-venue">New Horizons on Model Transportability and Data Integration — Institute for Mathematical and Statistical Innovation (IMSI), Chicago, IL, June 22–26, 2026</p>
-        <p class="talk-slides"><a href="files/Samhita_IMSI_poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a></p>
-      </div>
-    </div>
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2024</div>
-      <div class="talk-body">
-        <p class="talk-title">Poster presentation</p>
-        <p class="talk-venue">Graduate Student Research Symposium, NC State University</p>
-        <p class="talk-slides">Poster: coming soon</p>
-      </div>
-    </div>
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2023</div>
-      <div class="talk-body">
-        <p class="talk-title">Poster presentation</p>
-        <p class="talk-venue">JSM — Joint Statistical Meetings</p>
-        <p class="talk-slides">Poster: coming soon</p>
-      </div>
-    </div>
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2022</div>
-      <div class="talk-body">
-        <p class="talk-title">Poster presentation</p>
-        <p class="talk-venue">SRCOS — Southern Regional Council on Statistics</p>
-        <p class="talk-slides">Poster: coming soon</p>
-      </div>
-    </div>
-
-    <div class="talk-item" style="grid-template-columns: 70px 1fr;">
-      <div class="talk-year">2019</div>
-      <div class="talk-body">
-        <p class="talk-title">Poster presentation (3rd Prize)</p>
-        <p class="talk-venue">National Seminar for Sample Surveys, University of Calcutta</p>
-        <p class="talk-slides">Poster: coming soon</p>
-      </div>
-    </div>
-
-  </section>
+  <div class="section-label"><h2>Poster</h2><div class="rule"></div></div>
+  <ul class="talklist">
+    <li><a href="files/Samhita_IMSI_poster.pdf" target="_blank" rel="noopener">Improving Trial-Based CATE Estimation with Observational Data Borrowing</a> — <span class="venue">New Horizons on Model Transportability and Data Integration, IMSI 2026</span></li>
+    <li><span class="plain">Poster presentation</span> — <span class="venue">Graduate Student Research Symposium, NC State University</span></li>
+    <li><span class="plain">Poster presentation</span> — <span class="venue">JSM — Joint Statistical Meetings</span></li>
+    <li><span class="plain">Poster presentation</span> — <span class="venue">SRCOS — Southern Regional Council on Statistics</span></li>
+    <li><span class="plain">Poster presentation (3rd Prize)</span> — <span class="venue">National Seminar for Sample Surveys, University of Calcutta</span></li>
+  </ul>
 
 </main>
 
