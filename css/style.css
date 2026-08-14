@@ -415,8 +415,10 @@ section.block {
 
 .pub-venue {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--accent-dark);
+  font-size: 0.85rem;
+  color: #1B5FA8;
+  font-weight: 700;
+  font-style: italic;
   letter-spacing: 0.02em;
 }
 
