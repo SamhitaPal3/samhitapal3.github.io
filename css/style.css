@@ -362,6 +362,12 @@ section.block {
 
 .thrust-papers .p-title { color: var(--text); }
 
+.thrust-papers .venue {
+  color: #1B5FA8;
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* ============ Publications ============ */
 
 .pub-group { margin-bottom: 44px; }
